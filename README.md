@@ -4,4 +4,4 @@ Android application on [Google Play](https://play.google.com/store/apps/details?
 ![Promo](android_logo.png)
 
 ## Screenshots
-![Screen](screen1.png)
+![Screen1](screen1.png)
