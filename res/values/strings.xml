@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Emotional Cat Live</string>
+	<string name="app_description">Your lovely cat on the desktop.</string>
+	<string name="settings_name">Settings</string>
+	<string name="select_sound_button_record">Record</string>
+	<string name="select_sound_button_delete">Delete</string>
+	<string name="dialog_gallery_gallery_button">Choose from SD card</string>
+	<string name="dialog_record_message">Recording sound...</string>
+	<string name="dialog_record_button">Stop recording</string>
+	<string name="dialog_about_title">Emotional Cat Live</string>
+	<string name="dialog_about_text">
+		\nVersion 1.0\n\n
+		<b>Product Manager</b>\n
+		Denis Nikolaev\n\n
+		<b>Programming</b>\n
+		Semyon Tolushkin\n\n
+	</string>
+	<string name="prefs_uri">uri</string>
+	<string name="prefs_about">about</string>
+	<string name="prefs_sound">sound</string>
+	<string name="prefs_vibration">vibration</string>
+	<string name="prefs_current_id">currentId</string>
+	<string name="prefs_current_sound">currentSound</string>
+	<string name="prefs_about_title">About</string>
+	<string name="prefs_sound_title">Sound volume</string>
+	<string name="prefs_vibration_title">Vibration</string>
+	<string name="prefs_current_id_title">Cats</string>
+	<string name="prefs_current_sound_title">Purrs</string>
+	<string name="prefs_about_summary"></string>
+	<string name="prefs_sound_summary"></string>
+	<string name="prefs_vibration_summary">Turn vibration on/off</string>
+	<string name="prefs_current_id_summary">Select a Cat</string>
+	<string name="prefs_current_sound_summary">Select Purr</string>
+	<string name="ok">Ok</string>
+	<string name="no_sd_card">SD Card is not mounted!</string>
+	<string name="path_error">Path to file could not be created!</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gdisan.emotioncatlive.CheckableLinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<CheckedTextView
+    	android:id="@+id/sounditem"
+    	android:layout_width="fill_parent"
+		android:layout_height="?android:attr/listPreferredItemHeight"    	
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:gravity="center_vertical"
+    	android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    	android:paddingLeft="6dip"
+    	android:paddingRight="6dip">
+	</CheckedTextView>
+</com.gdisan.emotioncatlive.CheckableLinearLayout>

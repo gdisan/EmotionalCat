@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+  	<ListView
+  		android:id="@+id/selectsoundlistview"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_weight="1"
+  		android:height="0dp"
+  		android:layout_gravity="top">
+  	</ListView>
+  	<LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_gravity="bottom|center_horizontal">
+  		<Button
+  			android:id="@+id/selectsoundrecordbutton"
+  			android:text="@string/select_sound_button_record"
+  			android:layout_width="140dip"
+  			android:layout_height="wrap_content"
+  			android:layout_gravity="center">
+  		</Button>
+  		<Button
+  			android:id="@+id/selectsounddeletebutton"
+  			android:text="@string/select_sound_button_delete"
+  			android:layout_width="140dip"
+  			android:layout_height="wrap_content"
+  			android:layout_gravity="center">
+  		</Button>
+  	</LinearLayout>
+</LinearLayout>

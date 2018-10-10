@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:orderingFromXml="true">
+
+
+
+<Preference android:summary="@string/prefs_current_id_summary" android:title="@string/prefs_current_id_title" android:key="@string/prefs_current_id" android:selectable="true" android:defaultValue="0" android:persistent="true" android:enabled="true"></Preference>
+<CheckBoxPreference android:disableDependentsState="true" android:enabled="true" android:selectable="true" android:persistent="true" android:defaultValue="true" android:key="@string/prefs_vibration" android:title="@string/prefs_vibration_title" android:summary="@string/prefs_vibration_summary"></CheckBoxPreference>
+<Preference android:selectable="true" android:persistent="true" android:enabled="true" android:defaultValue="0" android:key="@string/prefs_current_sound" android:title="@string/prefs_current_sound_title" android:summary="@string/prefs_current_sound_summary"></Preference>
+<com.gdisan.emotioncatlive.SeekBarPreference android:persistent="true" android:defaultValue="50" android:max="100" android:key="@string/prefs_sound" android:title="@string/prefs_sound_title" android:summary="@string/prefs_sound_summary" />
+
+<Preference android:selectable="true" android:persistent="true" android:enabled="true" android:defaultValue="0" android:key="@string/prefs_about" android:title="@string/prefs_about_title" android:summary="@string/prefs_about_summary"></Preference>
+
+
+
+</PreferenceScreen>

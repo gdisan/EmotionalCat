@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Emotional Cat Live</string>
+	<string name="app_description">Ваш питомец на рабочем столе</string>
+	<string name="settings_name">Настройки</string>
+	<string name="select_sound_button_record">Запись</string>
+	<string name="select_sound_button_delete">Удалить</string>
+	<string name="dialog_gallery_gallery_button">Альбом</string>
+	<string name="dialog_record_message">Запись звука...</string>
+	<string name="dialog_record_button">Остановить</string>
+	<string name="dialog_about_title">Emotional Cat Live</string>
+	<string name="dialog_about_text">
+		\nВерсия 1.0\n\n
+		<b>Менеджер проекта</b>\n
+		Николаев Денис\n\n
+		<b>Программирование</b>\n
+		Толушкин Семён\n\n
+	</string>
+	<string name="prefs_uri">uri</string>
+	<string name="prefs_about">about</string>
+	<string name="prefs_sound">sound</string>
+	<string name="prefs_vibration">vibration</string>
+	<string name="prefs_current_id">currentId</string>
+	<string name="prefs_current_sound">currentSound</string>
+	<string name="prefs_about_title">О программе</string>
+	<string name="prefs_sound_title">Громкость</string>
+	<string name="prefs_vibration_title">Вибрация</string>
+	<string name="prefs_current_id_title">Кошки</string>
+	<string name="prefs_current_sound_title">Звуки</string>
+	<string name="prefs_sound_summary"></string>
+	<string name="prefs_vibration_summary">Включить/выключить вибрацию</string>
+	<string name="prefs_current_id_summary">Выбрать кошку</string>
+	<string name="prefs_current_sound_summary">Выбрать звук</string>
+	<string name="ok">Ok</string>
+	<string name="no_sd_card">Карта памяти не установлена!</string>
+	<string name="path_error">Путь к файлу не может быть создан!</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialog_about">0</integer>
+    <integer name="dialog_no_sd_card">1</integer>
+    <integer name="dialog_gallery">2</integer>
+</resources>

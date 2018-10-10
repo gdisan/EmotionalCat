@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gdisan.emotioncatlive"
+    android:versionCode="4"
+    android:versionName="1.0" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <service
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:name=".ECLW"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter >
+                <action android:name="android.service.wallpaper.WallpaperService" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/emotioncat" >
+            </meta-data>
+        </service>
+
+        <activity
+            android:exported="true"
+            android:label="@string/settings_name"
+            android:name=".EmotionCatSettings" >
+        </activity>
+
+        <receiver android:name=".ECLW$MainWindowReceiver" >
+            <intent-filter >
+                <category android:name="android.intent.category.HOME" >
+                </category>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:exported="true"
+            android:label="@string/app_name"
+            android:name=".EmotionCatSelectSound" >
+        </activity>
+    </application>
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+
+</manifest>
