@@ -1,3 +1,3 @@
 # EmotionalCat
 Android application
-![Promo](android_ogo.png)
+![Promo](android_logo.png)
